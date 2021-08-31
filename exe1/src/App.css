@@ -1,0 +1,70 @@
+.App {
+  text-align: center;
+  width: 50vw;
+  border: 1px solid black;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.Title {
+  border-bottom: 1px solid black;
+  font-size: 20px;
+  font-weight: bold;
+  padding-bottom: 15px;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+ul {
+  list-style-type: none;
+  text-align: left;
+}
+
+.List {
+  padding: 0px;
+  margin: 0px;
+  max-height: 30vh;
+  overflow-y: scroll;
+  min-height: 500px;
+  padding-right: 40px;
+}
+
+.Message {
+  padding: 0px;
+  margin: 0px;
+}
+
+.BoxMessage {
+  margin-top: 10px;
+}
+
+.Input {
+  display: flex;
+  flex: 1;
+}
+
+.Form {
+  flex: 0;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.Button {
+  margin-left: 10px;
+  background-color: pink;
+  font-size: 16px;
+}
+
+.Button:hover {
+  background-color: green;
+  color: white;
+}
+textarea {
+  width: 100%;
+}
